@@ -1,0 +1,30 @@
+.pen-tool{
+    position: fixed;
+    align-self: center;
+    bottom: 2vh;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #bababa;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 10;
+}
+
+.pen-size-slider{
+    width: 40vw;
+    height: 0.5rem;
+    -webkit-appearance: none;
+    background: #fff;
+    outline: none;
+    border-radius: 1rem;
+    box-shadow: inset 0 0 2px rgb(75, 74, 74);   
+}
+
+.pen-size-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    background: #304FFE;
+    cursor: pointer;
+    border: 4px solid #3D5AFE;
+  }

@@ -1,0 +1,61 @@
+.myCanvas{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#pointer{
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 50vh;
+    left: 50vw;
+    align-self: center;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#credits{
+    font-size: small;
+    position: fixed;
+    bottom: 0.6rem;
+    right: 0.6rem;
+    padding: 0.4rem;
+    background-color: #bababa;
+    border-radius: 0.2rem;
+    z-index: 10;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.toggleTool{
+    cursor: pointer;
+    position: fixed;
+    top: 1.8rem;
+    right: 1.8rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.toggleTool img{
+    transform: rotate(180deg);
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding-top: 0.2rem;
+}
+
+.animateThis{
+    -webkit-transition: all 0.5s ease;  
+    -moz-transition: all 0.5s ease;  
+    -o-transition: all 0.5s ease;  
+    -ms-transition: all 0.5s ease;  
+    transition: all 0.5s ease;
+}

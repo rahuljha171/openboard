@@ -1,0 +1,54 @@
+.sticky-note{
+    z-index: 11;
+    display: absolute;
+    align-self: flex-end;
+    width: 12.5rem;
+    height: 15rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5rem;
+    background-color: #bababa;
+}
+
+.sticky-header{
+    border-radius: 0.5rem 0.5rem 0.0rem 0.0rem;
+    display: flex;
+    background-color: #bababa;
+    height: 2.2rem;
+    justify-content: flex-end;
+    cursor: move;
+}
+
+.sticky-save,.sticky-close{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sticky-save{
+    background-color: #00C853;
+    margin: 0.6rem 0.0rem 0.6rem 0.6rem;
+}
+
+.sticky-close{
+    background-color: #FF5955;
+    margin: 0.6rem 0.6rem 0.6rem 0.6rem;
+}
+
+.sticky-content{
+    display: block;
+    width: 100%;
+    height: 12.8rem;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+.sticky-content textarea{
+    padding: 0.5rem;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+}
